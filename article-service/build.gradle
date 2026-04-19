@@ -1,0 +1,8 @@
+plugins{
+    id 'org.springframework.boot' version '4.0.5'
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-webmvc'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+}
